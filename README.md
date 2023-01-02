@@ -11,7 +11,7 @@
 	}
 
 	location = /signin {
-	root   html;
-	try_files  /signin.html $uri = 404;
+		root   html;
+		try_files  /signin.html $uri = 404;
 	}
  ~~~
