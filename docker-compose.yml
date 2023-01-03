@@ -1,0 +1,9 @@
+version: '1'
+services:
+  auth:
+    image: auth:1.0
+    build:
+      './'
+    ports:
+      - '80:8080'
+    container_name: 'hw-docker'
